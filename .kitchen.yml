@@ -9,8 +9,7 @@ platforms:
   - name: ubuntu-14.04
     driver_config:
       image: pingworks/docker-ws-baseimg:0.2
-
-
+      
 suites:
   - name: default
     run_list:

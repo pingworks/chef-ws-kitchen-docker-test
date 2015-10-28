@@ -1,4 +1,4 @@
-# ws-kitchen-docker-test-cookbook
+# ws_kitchen_docker_test-cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['ws-kitchen-docker-test']['bacon']</tt></td>
+    <td><tt>['ws_kitchen_docker_test']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### ws-kitchen-docker-test::default
+### ws_kitchen_docker_test::default
 
-Include `ws-kitchen-docker-test` in your node's `run_list`:
+Include `ws_kitchen_docker_test` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[ws-kitchen-docker-test::default]"
+    "recipe[ws_kitchen_docker_test::default]"
   ]
 }
 ```
